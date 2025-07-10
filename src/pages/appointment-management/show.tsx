@@ -1,8 +1,8 @@
 import { DateField, TextField } from "@refinedev/antd";
 import { Typography, Button } from "antd";
-import { ArrowLeftOutlined } from "@ant-design/icons"; // Importar el ícono de flecha hacia atrás
+import { ArrowLeftOutlined } from "@ant-design/icons"; 
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom"; // useNavigate para la navegación
+import { useParams, useNavigate } from "react-router-dom"; 
 import { useOne } from "@refinedev/core";
 
 const { Title } = Typography;
@@ -10,7 +10,7 @@ const { Title } = Typography;
 export const AppointmentShow = () => {
   const { id } = useParams();
   const token = localStorage.getItem("access_token");
-  const navigate = useNavigate(); // Hook de navegación
+  const navigate = useNavigate();
 
   const { data, isLoading } = useOne({
     resource: "appointments/read", 

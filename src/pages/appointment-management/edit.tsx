@@ -108,7 +108,7 @@ export const AppointmentEdit = () => {
         layout="vertical"
         onFinish={handleFinish}
         initialValues={transformedInitialValues}
-        key={JSON.stringify(transformedInitialValues)} // Forzar re-render cuando cambien los valores
+        key={JSON.stringify(transformedInitialValues)} 
       >
         <Title level={5}>ID</Title>
         <TextField value={appointment?.id ?? ""} />
