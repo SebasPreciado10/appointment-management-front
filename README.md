@@ -17,11 +17,11 @@ src/
 
 
 ## 🚀 Requisitos
-Node.js (versión 14 o superior)
-npm (o yarn si prefieres usarlo)
-Refine (para la administración de datos)
-Ant Design (para componentes de UI)
-React Router (para manejo de rutas)
+- Node.js (versión 14 o superior)
+- npm (o yarn si prefieres usarlo)
+- Refine (para la administración de datos)
+- Ant Design (para componentes de UI)
+- React Router (para manejo de rutas)
 
 ---
 
@@ -58,6 +58,16 @@ npm start
 # O si usas yarn:
 # yarn start
 ```
+
+### 5. Una vez levantes el front y back ingresa a 
+
+## 📖 Documentación
+- [Documentación de la API](http://127.0.0.1:8000/docs/)
+
+encuentra el endpoint 
+
+- POST - /auth/users/ llena los campos correspondientes
+- POST /auth/jwt/jwt/create/ despues con el userio y constraseña que creaste lo agregas a este endpoint para poder loguearte en la aplicacion
 
 
 
